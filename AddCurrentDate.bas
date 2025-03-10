@@ -11,3 +11,9 @@ Sub AddCurrentDate(sheetIndex As Integer, col As String)
     ' Вставить текущую дату в следующую пустую строку
     ws.Cells(lastRow + 1, col).Value = Date
 End Sub
+
+Sub main()
+
+    Call AddCurrentDate(1, "B") 'B_Date
+    
+End Sub

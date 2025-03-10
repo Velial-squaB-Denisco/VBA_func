@@ -39,7 +39,7 @@ Sub CheckLastRow(sheetIndex As Integer, col1 As String, col2 As String)
     End If
 End Sub
 
-Sub RunCheck1()
+Sub main()
 
     Call CheckLastRow(1, "A", "O")
     

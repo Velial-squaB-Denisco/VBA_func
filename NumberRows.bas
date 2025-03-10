@@ -17,3 +17,9 @@ Sub NumberRows(sheetIndex As Integer, col As String, colR As String)
         End If
     Next i
 End Sub
+
+Sub main()
+
+    Call NumberRows(1, "A", "B") 'A_№
+    
+End Sub
